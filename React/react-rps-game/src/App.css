@@ -1,0 +1,9 @@
+img {    /*tag선택자*/
+  width: 5em;  /*배수   (비율은 퍼센트 혹은 em으로 표현)*/
+  border: 1px solid red; /*실선*/
+  border-radius: 0.5em;
+}
+
+img + img {
+  margin-left: 0.5em;
+}
