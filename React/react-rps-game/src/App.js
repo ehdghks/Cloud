@@ -7,9 +7,11 @@ import { Component } from 'react';
 class Title extends Component {
   render() {
     //     제목, 중요 문장은 h1
-    return (<h1>가위</h1>);
+    return (<h1>가위 바위</h1>);
   }
 }
+
+
 
 class Scissors extends Component {
   render() {
@@ -18,6 +20,12 @@ class Scissors extends Component {
         this.props.onSubmit(0);
       }} />
     );
+  }
+}
+
+class Ex extends Component {
+  render() {
+    
   }
 }
 
